@@ -2,7 +2,7 @@
 
 O projeto faz parte do curso Engenheiro de Machine Learning
 
-![alt text](https://github.com/vyniciuss/enron_machine_learning/blob/master/enron.jpg)
+![alt text](https://github.com/vyniciuss/NDG_ml_finding_donors_CharityML/blob/master/charity.jpg)
 
 ## Visão Geral do Projeto
 
