@@ -1,37 +1,12 @@
-# Nanodegree Engenheiro de Machine Learning
-# Aprendizagem supervisionada
-## Projeto: Encontrando doadores para a CharityML
+# Encontrando doadores para a CharityML
 
-### Instalação
+O projeto faz parte do curso Engenheiro de Machine Learning
 
-Este projeto requer **Python 2.7** e as seguintes bibliotecas Python instaladas:
+![alt text](https://github.com/vyniciuss/enron_machine_learning/blob/master/enron.jpg)
 
-- [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org/)
-- [Matplotlib](http://matplotlib.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
+## Visão Geral do Projeto
 
-Você também precisará ter software instalado para rodar e executar um [iPython Notebook](http://ipython.org/notebook.html)
-
-A Udacity recomenda que os alunos instalem o [Anaconda](https://www.continuum.io/downloads), uma distribuição de Python que contém todas as bibliotecas e software necessários para este projeto. 
-
-### Código
-
-Um modelo do código é fornecido no arquivo notebook `finding_donors.ipynb`. Você também precisará usar o arquivo Python `visuals.py` e o arquivo de dados `census.csv` para concluir seu trabalho. Mesmo que parte do código já tenha sido fornecida para ajudá-lo a começar, você precisará implementar funcionalidades adicionais em alguns pontos para conseguir completar o projeto com sucesso. Note que o código incluído em `visuals.py` foi feito para ser utilizado do jeito que está, sem manipulação por parte dos alunos. Mas, se você estiver interessado em saber como as visualizações são criadas no notebook, fique à vontade para explorar esse arquivo Python.
-
-### Execução
-
-Em um terminal ou janela de comando, navegue até o diretório raiz de projeto `finding_donors/` (que contém este README) e execute os seguintes comandos:
-
-```bash
-ipython notebook finding_donors.ipynb
-```  
-ou
-```bash
-jupyter notebook finding_donors.ipynb
-```
-
-Isso abrirá o o software e arquivo de projeto iPython Notebook em seu navegador.
+Neste projeto, apliquei técnicas de aprendizagem supervisionada e raciocínio analítico sobre os dados coletados pelo censo dos Estados Unidos para ajudar a CharityML (uma instituição de caridade fictícia) a identificar as pessoas com maior probabilidade de doar à causa deles. Primeiro, foi feito uma exploração para saber como os dados do censo são gravados. Em seguida, apliquei uma série de transformações e técnicas de pré-processamento para manipular os dados e organizá-los em um formato com o qual precisei trabalhar. Depois, avaliei vários modelos de aprendizagem supervisionada de minha escolha sobre os dados, para definir qual é o mais adequado para a solução. Depois disso, otimizei o modelo selecionado e o apresentei para os avaliadores da Udacity como sua solução para a CharityML.
 
 ### Dados
 
@@ -54,3 +29,12 @@ O conjunto de dados do censo consiste em 32.000 registros, sendo que cada regist
 
 **Variável-alvo**
 - `income`: Classe de renda (<=50K,>50K)</=50K,>
+
+Este projeto requer **Python 3.6** e as seguintes bibliotecas Python instaladas:
+
+- [NumPy](http://www.numpy.org/)
+- [Pandas](http://pandas.pydata.org/)
+- [Matplotlib](http://matplotlib.org/)
+- [scikit-learn](http://scikit-learn.org/stable/)
+
+Você também precisará ter software instalado para rodar e executar um [iPython Notebook](http://ipython.org/notebook.html)
